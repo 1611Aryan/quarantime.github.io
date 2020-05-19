@@ -39,7 +39,8 @@ body
 	color:white;
 }
 /*Responsive*/
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 860px)
+{
   ul.nav li.pos1,  ul.nav li.pos
 	{
 		float: none;
@@ -129,7 +130,7 @@ a
 }
 
 a:visited {
-  color: #ADD8E6;
+  color: #cc3366;
 }
 a:hover {
   color: #cc3366;
