@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	
+	margin:0px;
+	background-color:#36648b;
+	
+}
+#navBar
+{
+	position: sticky;
+	top:0;
+}
+.nav
+{
+	list-style-type: none;
+	padding:0px;
+	margin: 0px;
+	overflow:hidden;
+	background-color: #739ac5;
+}
+.pos1{
+	float:left;
+	width:30%;
+	
+}
+.pos
+{
+	padding:23px 25px 10px;
+	float:right;
+	font-size:2em;
+	color:white;
+}
+
+@media screen and (max-width: 600px) {
+  ul.nav li.pos1, 
+  ul.nav li.pos {float: none;}
+}
+.block
+{
+	display:block;
+}
+#Logo
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.size
+{
+	width:100%;
+	height:auto;
+	
+}
+#links
+{
+	padding:0px 20px 20px;
+	font-size: 1.1em;
+
+}
+ul
+{
+	list-style-type: none;
+}
+
+.light::before
+{
+	
+	
+	content:"💡"; 
+	margin-left:-15px;
+	margin-right: 20px;
+    font-size: 1.15em;
+}
+li
+{
+	padding:5px 0px;
+}
+a
+{
+	text-decoration: none;
+	font-size:1.2em;
+	font-weight: 150;
+}
+a:link {
+  color: #ADD8E6;
+}
+a:visited {
+  color: #ADD8E6;
+}
+a:hover {
+  color: #cc3366;
+}
+a:active {
+  color: #cc3366;
+}
