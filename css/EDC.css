@@ -37,6 +37,13 @@ body
 .active
 {
 	color:white;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+.a
+{
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 .block
 {
@@ -83,6 +90,7 @@ body
 	.a
     {
 	    background-color:#A0BAD7;
+		text-decoration: none;
     }
 	.active
 	{
