@@ -11,6 +11,7 @@ body
 {
 	position: sticky;
 	top:0;
+	
 }
 .nav
 {
@@ -30,9 +31,14 @@ body
 	padding:26px 25px 0px;
 	float:left;
 	font-size:2em;
+	color:black;
+	
+}
+.active
+{
 	color:white;
 }
-
+/*Responsive*/
 @media screen and (max-width: 860px) {
   ul.nav li.pos1,  ul.nav li.pos
 	{
@@ -55,12 +61,26 @@ body
 	li.a
 	{
 		border-top:1px solid white;
+		margin:0px;
+		padding:0px;
+	}
+	.a
+    {
+	    background-color:#A0BAD7;
+    }
+	.active
+	{
+		padding: 5px;
 	}
 }
+
 .block
 {
 	display:block;
+	text-decoration: none;
+	color:black;
 }
+
 #Logo
 {
 	padding-top: 20px;
@@ -106,9 +126,7 @@ a
 	font-size:1.2em;
 	font-weight: 150;
 }
-a:link {
-  color: #ADD8E6;
-}
+
 a:visited {
   color: #ADD8E6;
 }
