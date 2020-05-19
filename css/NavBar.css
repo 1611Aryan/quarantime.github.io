@@ -102,6 +102,11 @@ body
 	{
 		font-size:0.85em;
 	}
+	li.light
+	{
+		margin:5px;
+		padding:1px;
+	}
 }
 
 
