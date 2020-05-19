@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	
+	margin:0px;
+	background-color:#36648b;
+	
+}
+#Logo
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#links
+{
+	padding:0px 20px 20px;
+	font-size: 1.1em;
+
+}
+ul
+{
+	list-style-type: none;
+}
+
+.light::before
+{
+	
+	
+	content:"💡"; 
+	margin-left:-15px;
+	margin-right: 20px;
+    font-size: 1.15em;
+}
+li.light
+{
+	padding:5px 0px;
+}
+a.b
+{
+	text-decoration: none;
+	font-size:1.2em;
+	font-weight: 150;
+	color:#ADD8E6;
+}
+

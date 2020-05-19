@@ -38,6 +38,20 @@ body
 {
 	color:white;
 }
+.block
+{
+	display:block;
+	text-decoration: none;
+	color:black;
+}
+.size
+{
+	max-width:100%;
+	height:auto;
+	
+}
+
+
 /*Responsive*/
 @media screen and (max-width: 860px)
 {
@@ -74,67 +88,21 @@ body
 	{
 		padding: 5px;
 	}
+	p.fit
+	{
+		font-size: 4.4vw;
+	}
 }
 
-.block
-{
-	display:block;
-	text-decoration: none;
-	color:black;
-}
 
-#Logo
-{
-	padding-top: 20px;
-	padding-left: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
 
-.size
-{
-	max-width:100%;
-	height:auto;
-	
-}
-#links
-{
-	padding:0px 20px 20px;
-	font-size: 1.1em;
-
-}
-ul
-{
-	list-style-type: none;
-}
-
-.light::before
-{
-	
-	
-	content:"💡"; 
-	margin-left:-15px;
-	margin-right: 20px;
-    font-size: 1.15em;
-}
-li
-{
-	padding:5px 0px;
-}
-a
-{
-	text-decoration: none;
-	font-size:1.2em;
-	font-weight: 150;
-}
-
-a:visited {
+a.block:visited {
   color: #cc3366;
 }
-a:hover {
+a.block:hover {
   color: #cc3366;
 }
-a:active {
+a.block:active {
   color: #cc3366;
 }
+/*NavBar Ends*/
