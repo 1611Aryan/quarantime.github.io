@@ -2,7 +2,7 @@
 /* CSS Document */
 body
 {
-	
+	padding:0px;
 	margin:0px;
 	background-color:#36648b;
 	
@@ -30,6 +30,7 @@ ul
 li.light
 {
 	padding:5px 0px;
+	color:#ADD8E6;
 }
 a.b
 {
@@ -38,4 +39,15 @@ a.b
 	font-weight: 150;
 	color:#ADD8E6;
 }
-
+.small1
+{
+	font-size:0.8em;
+	text-decoration:none;
+	color:black;
+	padding:0px 20px;
+}
+.small
+{
+	text-decoration: none;
+	color:#000000;
+}
