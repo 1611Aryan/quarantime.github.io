@@ -54,7 +54,22 @@ li.light
 	height:1.8em;
 	width:auto;
 	vertical-align: bottom;
-	padding:3px 40px 0px;
+	padding:3px 40px 0px ;
+}
+.dim1
+{
+	height:1.8em;
+	width:auto;
+	vertical-align: bottom;
+	padding:3px 10px 0px 40px ;
+}
+.hotstar
+{
+	height:1.8em;
+	width:auto;
+	vertical-align: bottom;
+	padding:3px 0px 0px 5px;
+	border-radius:50%;
 }
 @media screen and (max-width: 860px)
 {
