@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	padding:0px;
+	margin:0px;
+	background-color:#36648b;
+	
+}
+#links
+{
+	padding:0px 50px 20px;
+	font-size: 1.2em;
+
+}
+ul
+{
+	list-style-type: none;
+}
+
+.light::before
+{
+	
+	
+	content:"📺"; 
+	margin-left:-25px;
+	margin-right: 20px;
+    font-size: 1.35em;
+}
+li.light
+{
+	padding:2px 0px;
+	color:#ADD8E6;
+	font-size: 1.2em;
+}
+
+.small1
+{
+	font-size:0.8em;
+	text-decoration:none;
+	color:black;
+	padding:0px 35px;
+	vertical-align: middle;
+	
+}
+.small
+{
+	text-decoration: underline;
+	color:#000000;
+	font-size:0.9em;
+}
+.dim
+{
+	height:1.8em;
+	width:auto;
+	vertical-align: bottom;
+	padding:3px 40px 0px;
+	
+}
+.hotstar
+{
+	height:1.8em;
+	width:auto;
+	vertical-align: bottom;
+	padding:3px 40px 0px;
+	border-radius:50%;
+}
+@media screen and (max-width: 860px)
+{
+	#links{
+		padding:0px 20px 20px;
+	}
+	li.light
+	{
+		font-size:1em;
+	}
+}
