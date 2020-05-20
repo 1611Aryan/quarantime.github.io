@@ -9,7 +9,7 @@ body
 }
 #links
 {
-	padding:0px 20px 20px;
+	padding:0px 50px 20px;
 	font-size: 1.2em;
 
 }
@@ -33,19 +33,14 @@ li.light
 	color:#ADD8E6;
 	font-size: 1.2em;
 }
-a.b
-{
-	text-decoration: none;
-	font-size:1.2em;
-	font-weight: 150;
-	color:#ADD8E6;
-}
+
 .small1
 {
 	font-size:0.8em;
 	text-decoration:none;
 	color:black;
 	padding:0px 35px;
+	vertical-align: middle;
 	
 }
 .small
@@ -53,4 +48,20 @@ a.b
 	text-decoration: underline;
 	color:#000000;
 	font-size:0.9em;
+}
+.dim
+{
+	height:1.5em;
+	width:auto;
+	vertical-align: bottom;
+}
+@media screen and (max-width: 860px)
+{
+	#links{
+		padding:0px 20px 20px;
+	}
+	li.light
+	{
+		font-size:1em;
+	}
 }
